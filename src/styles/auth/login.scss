@@ -1,0 +1,16 @@
+.login {
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__wrapper {
+        width: 35%;
+    }
+    .form__action-icon {
+        svg path {
+            fill: #fe4f70;
+        }
+    }
+}
