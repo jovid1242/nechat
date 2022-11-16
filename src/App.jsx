@@ -5,6 +5,7 @@ import AppRouter from './components/AppRouter'
 
 // styles
 import './styles/global.css'
+import 'antd-mobile-v2/dist/antd-mobile.css'
 import 'antd/dist/antd.css'
 
 function App() {

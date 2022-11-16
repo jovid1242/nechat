@@ -1,5 +1,7 @@
 import React from 'react'
-import { Button, Form, Input, Typography } from 'antd'
+
+import { Button } from 'antd-mobile'
+import { Typography, Input, Form } from 'antd'
 import { useNavigate } from 'react-router-dom'
 
 // store
@@ -93,7 +95,9 @@ export default function Login() {
                         </Form.Item>
 
                         <Form.Item>
-                            <Button htmlType="submit">Submit</Button>
+                            <Button block color="primary" size="large">
+                                Submit
+                            </Button>
                         </Form.Item>
                     </Form>
                 </div>
