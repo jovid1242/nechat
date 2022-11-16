@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button, Form, Input, Typography } from 'antd'
 import { useNavigate } from 'react-router-dom'
 
 // store
@@ -9,11 +10,9 @@ import { setAuth, login } from '../../redux/auth/authSlice'
 import { ToastContainer, toast } from 'react-toastify'
 import Loader from '../../components/Loader/Loader'
 
-// ant
-import { Button, Form, Input, Typography } from 'antd'
-
 // icons
 import { UserOutlined, SafetyOutlined } from '@ant-design/icons'
+
 // styles
 import 'react-toastify/dist/ReactToastify.css'
 import '../../styles/auth/login.scss'

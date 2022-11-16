@@ -1,6 +1,7 @@
 import React from 'react'
 import { SemipolarLoading } from 'react-loadingg'
 
+// styles
 import '../../styles/loader/loader.scss'
 
 function Loader({ visible }) {
