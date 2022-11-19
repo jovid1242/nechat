@@ -1,0 +1,74 @@
+.sing-up {
+    width: 100%;
+
+    &__wrapper {
+        // border: 1px solid #ffff;
+    }
+
+    &__head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__body {
+        margin-top: 50px;
+
+        .__title {
+            text-align: center;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 32px;
+        }
+
+        .__action {
+            margin-bottom: 65px;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .hr-space {
+            width: 100%;
+            position: relative;
+
+            p {
+                text-align: center;
+                font-weight: 400;
+                font-size: 12px;
+                color: #ffffff;
+            }
+
+            &::before {
+                position: absolute;
+                content: '';
+                right: 0;
+                top: 16px;
+                width: 94px;
+                height: 1px;
+                background: rgba(255, 255, 255, 0.4);
+            }
+
+            &::after {
+                position: absolute;
+                content: '';
+                left: 0;
+                top: 16px;
+                width: 94px;
+                height: 1px;
+                background: rgba(255, 255, 255, 0.4);
+            }
+        }
+        .__icons {
+            margin-top: 12px;
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
