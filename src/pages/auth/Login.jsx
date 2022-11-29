@@ -9,8 +9,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { setAuth, login } from '../../redux/auth/authSlice'
 
 // components
-import { ToastContainer, toast } from 'react-toastify'
-import Loader from '../../components/Loader/Loader'
+import { ToastContainer, toast } from 'react-toastify' 
 
 // icons
 import { UserOutlined, SafetyOutlined } from '@ant-design/icons'
@@ -45,8 +44,7 @@ export default function Login() {
     }
 
     return (
-        <>
-            <Loader visible={authState.status} />
+        <> 
             <ToastContainer />
             <div className="login">
                 <div className="login__wrapper">
